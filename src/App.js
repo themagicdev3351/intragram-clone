@@ -13,7 +13,6 @@ import Todos from './containers/Todos/Todos';
 
 const Home = React.lazy(() => import('./containers/Home/Home'));
 
-
 const App = ({ loggedIn, emailVerified }) => {
     let routes;
 
